@@ -35,6 +35,18 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - sure
+    - ok
+    - why not
+    - ok great
+    - yes I did
+    - yeah, great
+    - pretty good
+    - fine
+    - You bet
+    - I sure did
+    - more or less
+
 - intent: deny
   examples: |
     - no
@@ -44,6 +56,14 @@ nlu:
     - don't like that
     - no way
     - not really
+    - none
+    - absolutely not
+    - no thanks
+    - didn't do any
+    - no I didn't
+    - could have been better
+    - not great
+    - nope
 - intent: mood_great
   examples: |
     - perfect
@@ -105,3 +125,63 @@ nlu:
     - Is walking once a day enough exercise?
     - How much exercise should I do every day?
     - How many times per week should I go to the gym?
+  - intent: inform
+  examples: |
+    - a full [8 hours](sleep)
+    - only [four hours](sleep)
+    - about [six hours](sleep)
+    - [low](stress)
+    - [medium](stress)
+    - [high](stress)
+    - Yes, I went for a [run](exercise)
+    - uh huh an hour of [yoga](exercise)
+    - yep, I went for a [hike](exercise)
+    - Yes I took the dog for a [walk](exercise)
+    - Yeah, I played [tennis](exercise)
+    - I went [swimming](exercise)
+    - Took a [spin class](exercise)
+    - Did some [boxing](exercise)
+    - [rock climbing](exercise)
+    - played some [basketball](exercise)
+    - played [football](exercise)
+    - I did a [workout](exercise) video
+    - I want to get up early and go for a [run](exercise)
+    - [Be more patient with my family](stress)
+    - [Try to be a better friend](stress)
+    - [Make sure to eat better tomorrow](stress)
+    - eat [less junk food](eat)
+    - eat [better](eat)
+    - [spend less time on my phone](stress)
+    - [don't procrastinate](stress)
+    - [Go to bed earlier](stress)
+    - [Don't stay up so late](stress)
+    - [try to make some time to meditate](stress)
+    - i ate [pretty healthy overall](eat)
+    - [lots of fruits and vegetables](eat)
+    - I ate [a salad](eat)
+    - [too many snacks](eat)
+    - [too many sweets](eat)
+    - [too much junk food](eat)
+    - [a lot of carbs](eat)
+    - [too much fatty food](eat)
+    - Get more exercise
+    
+  - intent: out_of_scope
+  examples: |
+    - that's not what I want to do
+    - wait stop
+    - you're no help
+    - this is no help at all
+    - how old are you
+    - I want to order a pizza
+    - tell me the weather
+    - this isn't working
+    - I already told you that
+    - don't like that
+    - I don't want to tell you that
+    - none of your business
+    - that's not right
+    - stop asking
+    - nevermind
+    - I want to do something else
+    - I changed my mind

@@ -28,3 +28,24 @@ code format
   - action: utter_diet_info
 
 3) Rasa interactive writes stories on stories.yml (there is no stories.md)
+
+
+4) Course Video: 5 Forms
+
+
+  - story: survey happy path
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: affirm
+    - action: health_form
+    - active_loop: health_form
+
+--------------------------------------------
+????????????????????????????????
+* affirm
+- health_form
+- form{"name":"health_form"}
+- form{"name":null}
+
+https://rasa.com/docs/rasa/playground/ 3. Stories

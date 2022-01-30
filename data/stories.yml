@@ -43,9 +43,22 @@ stories:
   steps:
   - intent: ask_exercise
   - action: utter_exercise_info
+
 - story: interactive_story_1
   steps:
   - intent: greet
   - action: utter_greet
   - intent: ask_lower_stress
   - action: utter_stress_info
+
+  - story: survey happy path
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: affirm
+    - action: health_form
+    - active_loop: health_form
+    - intent: thankyou
+    - action: utter_no_worries
+    - action: utter_goodbye
+
