@@ -15,6 +15,7 @@ intents:
 - ask_exercise
 - inform
 - out_of_scope
+- thankyou
 
 slots:
   confirm_exercise:

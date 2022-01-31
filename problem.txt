@@ -1,0 +1,16 @@
+The configuration for pipeline was chosen automatically. It was written into the config file at 'config.yml'.
+YamlValidationException: Failed to validate 'C:\myRasa\rasa-for-beginners\domain.yml'. Please make sure the file is correct and all mandatory parameters are specified. Here are the errors found during validation:
+  in C:\myRasa\rasa-for-beginners\domain.yml:22:
+      Cannot find required key 'mappings'. Path: '/slots/confirm_exercise'
+  in C:\myRasa\rasa-for-beginners\domain.yml:24:
+      Cannot find required key 'mappings'. Path: '/slots/exercise'
+  in C:\myRasa\rasa-for-beginners\domain.yml:26:
+      Cannot find required key 'mappings'. Path: '/slots/sleep'
+  in C:\myRasa\rasa-for-beginners\domain.yml:28:
+      Cannot find required key 'mappings'. Path: '/slots/diet'
+  in C:\myRasa\rasa-for-beginners\domain.yml:30:
+      Cannot find required key 'mappings'. Path: '/slots/stress'
+  in C:\myRasa\rasa-for-beginners\domain.yml:32:
+      Cannot find required key 'mappings'. Path: '/slots/goal'
+  in C:\myRasa\rasa-for-beginners\domain.yml:89:
+      Value '['health_form']' is not a dict. Value path: '/forms'
